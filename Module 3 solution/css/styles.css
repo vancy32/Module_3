@@ -1,0 +1,198 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:#ffd1ff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:  #ffa6c9;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header{
+  height: 100px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: cyan;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px  #333300;
+  margin-bottom: 4;
+  line-height: .75;
+}
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content
+{
+  position: relative;
+  top:40px;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ h1
+{ color: purple;
+  font-weight: bold;
+  font-weight: bold;
+  font-size:  2.5em;
+  margin-bottom: 50px;
+}
+
+#section1,#section2,#section3
+{
+
+  width: 30%;
+  height: 1000px;
+  float: left;
+  text-align: center;
+  position: relative;
+  border: 4px solid black;
+  margin: 15px;
+}
+#section1{
+    background-color: orange;
+
+}
+#section2{
+  background-color: #e0a366;
+}
+#section3{
+  background-color: #ffa38c;
+}
+#section1 h2,#section2 h2,#section3 h2
+{ 
+  float : right;
+  position: relative;
+  clear: left;
+  margin-left: 5px;
+  margin-right: -30px;
+  text-align: center;
+  top: 0px;
+  right: 150px;
+  border: 4px solid black;
+  width: 40%;
+}
+
+#section1 p,#section2 p,#section3 p
+{
+  clear: right;
+  text-align:  center;
+  font-size: 21px;
+  padding: 10px;
+  overflow: hidden ;
+}
+
+#section1 h2
+{
+  background-color: purple;
+}
+#section2 h2
+{
+  background-color: green;
+}
+#section3 h2
+{
+  background-color: violet;
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+
+  .content{
+    width: 100%;
+
+  }
+  #section1,#section2
+  {
+    width: 45%;
+    float: left;
+    border: 2.5px solid black;
+    margin: 2.5%;
+    text-align: center;
+    overflow: hidden;
+  }
+  #section3
+  { 
+    width: 95%;
+    border: 2.5px solid black;
+    margin: 2.5%;
+    text-align: center;
+    overflow: hidden;
+  }
+#section3 h2{
+  margin-right: 50px;
+}
+#section1 h2,#section2 h2{
+  margin-left: 10px;
+}
+}
+
+
+
+@media (max-width:767px)
+{ 
+ 
+  #section1,#section2,#section3
+  {
+    width: 95%;
+    border: 2.5px solid black;
+    margin: 2.5%;
+    text-align: center;
+  }
+  #section1 h2,#section2 h2,#section3 h2{
+    margin-right : -10px;
+  }
+#collapsable-nav{
+  background-color:  #ffad99;
+}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: black;
+    vertical-align: middle;
+      }
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+
